@@ -1,3 +1,6 @@
+## Dataset
+The Human Activity Recognition (HAR) dataset used in this project can be downloaded from the following link:
+🔗 [Download HAR Dataset](https://drive.google.com/drive/u/3/folders/1X6L4y2t2TwjkTAUfEE0ANBusTzNV27LA)
 ## Requirements
 pip install -r requirements.txt
 ## Train with iid

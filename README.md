@@ -1,9 +1,20 @@
-## Dataset
-The Human Activity Recognition (HAR) dataset used in this project can be downloaded from the following link:
-🔗 [Download HAR Dataset](https://drive.google.com/drive/u/3/folders/1X6L4y2t2TwjkTAUfEE0ANBusTzNV27LA)
-## Requirements
-pip install -r requirements.txt
-## Train with iid
-python federated_main.py --model=cnn --dataset=har --epochs=300 --frac 0.1 --local_ep=20 --lr=0.0003 --optimizer='adam' --num_users=100 --iid=1 --gpu='0' --data_dir='data/' --output_dir='output_dir/' --local_bs=128
-## Train with non-iid
-python federated_main.py --model=cnn --dataset=har --epochs=300 --frac 0.1 --local_ep=20 --lr=0.0003 --optimizer='adam' --num_users=100 --iid=0 --gpu='0' --data_dir='data/' --output_dir='output_dir/' --local_bs=128
+# Neural Network Models for Federated Human Activity Recognition (Under Review)
+
+This repository contains the implementations of the neural network models used in our manuscript currently under peer review.
+
+- **FedANN**
+- **FedConvNN**
+
+Both models are implemented in `models.py` using PyTorch.
+
+## Contents
+
+* Model architectures (FedANN and FedConvNN)  
+* No training or FL pipeline code  
+* No dataset
+
+This is shared to support reproducibility during the review process.
+
+## Note
+
+The full codebase will be released after the peer review process is completed.
